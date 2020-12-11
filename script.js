@@ -16,3 +16,127 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+let questions = {
+    [
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    }
+      {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what month is it?',
+        option1: 'July',
+        option2: 'November',
+        option3: 'December',
+        option4: 'March',
+        answer: 2,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what day is it?',
+        option1: 'Monday',
+        option2: 'Tuesday',
+        option3: 'Wednesday',
+        option4: 'Friday',
+        answer: 1,
+    },
+    {
+        question: 'what year is it?',
+        option1: '2020',
+        option2: '3000',
+        option3: '2021',
+        option4: '1999',
+        answer: 0,
+    }
+    ]
+
+var: totalScore = 100,
+    var: maxQuestions = 10,
+
+    startGame = () => {
+        questionCounter = 0
+        score = 0
+        availableQuestions = (questions)
+        getNewQuestion()
+    }
+
+getNewQuestion = () => {
+        if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
+            localStorage.setItem('mostRecentScore', score)
+
+            return window.localation.assign('0')
+        }
+    }
+
+questionCounter++
+progressText.innerText = 'Question $' { questionCounter } of { maxQuestions };
+
+var questionsIndex = Math.floor(Math.random() + availableQuestions.length)
+currentQuestion = availableQuestions[questionsIndex]
+question.innerText = currentQuestion.question
+
+
+choices.array.forEach(choice => {
+    var number = choice.dataset['number']
+    choice.innerText = currentQuestion['choice' + number]
+});
+
+availableQuestions.splice(questionsIndex, 1)
+
+acceptedAnswer = true}
+
+choice.forEach{
+    choice => {
+        choice.addEventListener('click', 0 =>)
+    }
+}
