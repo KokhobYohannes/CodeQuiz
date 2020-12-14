@@ -16,89 +16,49 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = {
+let questions = 
+    ([
     [
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    }
-      {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what month is it?',
-        option1: 'July',
-        option2: 'November',
-        option3: 'December',
-        option4: 'March',
-        answer: 2,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what day is it?',
-        option1: 'Monday',
-        option2: 'Tuesday',
-        option3: 'Wednesday',
-        option4: 'Friday',
-        answer: 1,
-    },
-    {
-        question: 'what year is it?',
-        option1: '2020',
-        option2: '3000',
-        option3: '2021',
-        option4: '1999',
-        answer: 0,
-    }
+        question = 'what day is it?',
+        option1= 'Monday',
+        option2= 'Tuesday',
+        option3= 'Wednesday',
+        option4= 'Friday',
+        answer= 1,
     ]
+      [
+        question='what day is it?',
+        option1= 'Monday',
+        option2= 'Tuesday',
+        option= 'Wednesday',
+        option4= 'Friday',
+        answer= 1,
+      ]
+      [
+        question= 'what day is it?',
+        option1= 'Monday',
+        option2= 'Tuesday',
+        option3= 'Wednesday',
+        option4= 'Friday',
+        answer= 1,
+    ],
+    [
+        question= 'what day is it?',
+        option1= 'Monday',
+        option2= 'Tuesday',
+        option3= 'Wednesday',
+        option4= 'Friday',
+        answer= 1,
+    ],
+    [
+        question= 'what day is it?',
+        option1= 'Monday',
+        option2= 'Tuesday',
+        option3= 'Wednesday',
+        option4= 'Friday',
+        answer= 1,
+    ],
+]),
 
 var: totalScore = 100,
     var: maxQuestions = 10,
