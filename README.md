@@ -9,10 +9,17 @@ Description: The goal for the application is that once the user clicks "Start/Ok
 Screenshots: TBD
 
 
+Fonts used:
+
 Languages used: HTML, CSS, Javascript
 
 
 Frameworks used: Bootstrap
+
+Acknowlegements:
+1)Coding Quiz Tutorial:
+2)Javascript Quiz Content:
+3)Fonts:
 
 
 Github Homework link: https://kokhobyohannes.github.io/CodeQuiz/ 
