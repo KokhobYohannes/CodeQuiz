@@ -28,6 +28,7 @@ body{
     padding: 2rem;
     width: 100%;
 }
+ /*hud = Heads Up Display*/
 
 #hud {
     display: flex;
@@ -58,6 +59,7 @@ body{
     width: 0%;
 }
 
+ /*Countdown Timer*/
 #timerDisplay{
     font-size: 4rem;
     margin-top: 2rem;

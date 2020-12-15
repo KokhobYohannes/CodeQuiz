@@ -1,3 +1,4 @@
+// Defined variables for questions, progress bar, score and choices
 var question = document.querySelector('#question');
 var choices = Array.from(document.querySelectorAll('.choice-text'));
 var progressText = document.querySelector('#progressText');
@@ -10,6 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Listed quiz questions and answers that will be displayed during the game
 let questions = [
     {
         question: 'Which of the following function of Array object removes the last element from an array and returns that element?',
@@ -52,10 +54,12 @@ let questions = [
         answer: 3,
     }
 ]
+// Defined score points per question and the maximum number of questions to display
 
-var SCORE_POINTS = 100;
-var MAX_QUESTIONS = 5;
+var score_points = 100;
+var max_questions = 5;
 
+//Functions
 startGame = () => {
     questionCounter = 0
     score = 0
@@ -64,7 +68,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter > max_questions) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('./endgame.html')
@@ -89,8 +93,8 @@ getNewQuestion = () => {
     })();
 
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`
+    progressText.innerText = `Question ${questionCounter} of ${max_questions}`
+    progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%`
 
     var questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
@@ -117,7 +121,7 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if (classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(score_points)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)

@@ -1,5 +1,7 @@
+/*Styling based off of Brian Design's Youtube coding quiz tutorial. Tutorial linked in read.me file */
+
 :root {
-    background-color: rgb(26, 29, 26);
+    background-color: black;
 }
 
 * {
@@ -30,7 +32,7 @@ h2{
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: auto;
     padding: 2rem;
 }
 
