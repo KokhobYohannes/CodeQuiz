@@ -13,9 +13,6 @@ Fonts used: Poppins, Roboto, Gilda Display
 
 Languages used: HTML, CSS, Javascript
 
-
-Frameworks used: Bootstrap
-
 Acknowlegements:
 1)Coding Quiz Tutorial:
 
