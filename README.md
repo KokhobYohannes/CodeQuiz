@@ -4,9 +4,6 @@ Objective: To create a five question coding quiz with four multiple choice answe
 Description: The goal for the application is that once the user clicks "Start Game" that a timer will begin counting down to zero. For each question answered incorrectly from the five questions listed, time will be subtracted. Once the user gets to the end of the quiz, they will be able to enter their name along side their score and can restart the game. After completing the game, they will be able to compare their scores to see how they have progressed. 
 
 
-Screenshots: TBD
-
-
 Fonts used: Poppins, Roboto, Gilda Display
 
 Languages used: HTML, CSS, Javascript
