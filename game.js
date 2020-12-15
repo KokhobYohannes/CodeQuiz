@@ -71,7 +71,7 @@ getNewQuestion = () => {
     }
 
     (function () {
-        var sec = 90;
+        var sec = 60;
         function startTimer() {
             var timer = setInterval(function () {
                 sec--;
