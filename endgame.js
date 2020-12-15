@@ -9,9 +9,9 @@ var MAX_HIGH_SCORES = 10
 
 finalScore.innerText = mostRecentScore
 
-username.addEventListener('keyUp', () => {
+username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
-}
+} 
  )
 
  saveHighScore = e => {
