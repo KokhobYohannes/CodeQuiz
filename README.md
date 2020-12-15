@@ -9,7 +9,7 @@ Description: The goal for the application is that once the user clicks "Start/Ok
 Screenshots: TBD
 
 
-Fonts used:
+Fonts used: Poppins, Roboto, Gilda Display
 
 Languages used: HTML, CSS, Javascript
 
@@ -18,8 +18,16 @@ Frameworks used: Bootstrap
 
 Acknowlegements:
 1)Coding Quiz Tutorial:
+
+
+
 2)Javascript Quiz Content:
-3)Fonts:
+https://www.tutorialspoint.com/javascript/javascript_online_quiz.htm 
+https://www.geeksforgeeks.org/javascript-quiz-set-1/ 
+
+3)Fonts: Taken from Google Fonts
+
+4)Checked with AskBCS for errors received while syncing js and html files.
 
 
 Github Homework link: https://kokhobyohannes.github.io/CodeQuiz/ 
