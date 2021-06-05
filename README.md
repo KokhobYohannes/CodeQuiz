@@ -39,7 +39,7 @@ Deployed link: https://kokhobyohannes.github.io/CodeQuiz/
 
 Repository link: https://github.com/KokhobYohannes/CodeQuiz
 
-![Screen Shot 2021-06-05 at 9 05 12 AM](https://user-images.githubusercontent.com/72357196/120892595-24285780-c5dd-11eb-8d9a-b0978ed8d142.png)
+![Screen Shot 2021-06-05 at 9 07 48 AM](https://user-images.githubusercontent.com/72357196/120892686-82553a80-c5dd-11eb-9c51-b4ea06326998.png)
 ![Screen Shot 2021-06-05 at 9 05 35 AM](https://user-images.githubusercontent.com/72357196/120892607-33a7a080-c5dd-11eb-9d61-5f17c98e25a9.png)
 ![Screen Shot 2021-06-05 at 9 07 03 AM](https://user-images.githubusercontent.com/72357196/120892663-6782c600-c5dd-11eb-8323-cb70206365f4.png)
 
