@@ -1,16 +1,14 @@
 # CodeQuiz
-# Objective: To create a five question coding quiz with four multiple choice answers that will subtract time for incorrect answers and store users' scores for comparison.
+Objective: To create a five question coding quiz with four multiple choice answers that will subtract time for incorrect answers and store users' scores for comparison.
 
-# Description: The goal for the application is that once the user clicks "Start Game" that a timer will begin counting down to zero. For each question answered incorrectly from the five questions listed, time will be subtracted. Once the user gets to the end of the quiz, they will be able to enter their name along side their score and can restart the game. After completing the game, they will be able to compare their scores to see how they have progressed. 
+Description: The goal for the application is that once the user clicks "Start Game" that a timer will begin counting down to zero. For each question answered incorrectly from the five questions listed, time will be subtracted. Once the user gets to the end of the quiz, they will be able to enter their name along side their score and can restart the game. After completing the game, they will be able to compare their scores to see how they have progressed. 
 
-# Instructions to run application:
-
-Click the deployed link below to view the code quiz and answer the five timed questions to the best of your knowledge. Once completed, you will see your final score. Then you are able to retake the quiz and view your high scores.
+Instructions to run application: Click the deployed link below to view the code quiz and answer the five timed questions to the best of your knowledge. Once completed, you will see your final score. Then you are able to retake the quiz and view your high scores.
 
 
-# Fonts used: Poppins, Roboto, Gilda Display
+Fonts used: Poppins, Roboto, Gilda Display
 
-# Languages used: HTML, CSS, Javascript
+Languages used: HTML, CSS, Javascript
 
 Acknowlegements:
 
